@@ -5,7 +5,7 @@
   min-height: $spacing-unit * 1.5;
   padding-top: 30px;
   padding-bottom: 25px;
-  background-color:$header-color;
+  background-color: $blue-color;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -13,13 +13,12 @@
 
 .site-title {
   @include relative-font-size(2);
-  font-weight: 500;
+  font-weight: 700;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
   color: $light-rose;
-
 }
 
 .site-nav {
@@ -29,7 +28,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -47,42 +46,38 @@
 
     &:hover {
       color: $darker-rose;
-      text-decoration: underline;
-      -webkit-transition: all ease .5s;
-      -moz-transition: all ease .5s;
-      transition: all ease .5s;
+      -webkit-transition: all ease 1s;
+      -moz-transition: all ease 1s;
+      transition: all ease 1s;
     }
   }
 
   @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
+    margin-top: 10px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
+    background-color: $light-rose;
+    border-radius: 10px;
 
     label[for="nav-trigger"] {
-      display: block;
+      display: flex;
+      flex-direction: row;
       float: right;
-      width: 36px;
-      height: 36px;
+      width: 40px;
+      height: 40px;
       z-index: 2;
       cursor: pointer;
+      justify-content: center;
+      align-content: center;
     }
 
     .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: stretch;
 
-      > svg {
-        fill: $grey-color-dark;
+      > .fa-bars {
+        color: $blue-color;
       }
     }
 
@@ -92,30 +87,30 @@
     }
 
     input:checked ~ .trigger {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
       padding-bottom: 5px;
+
+      > .page-link {
+        margin-right: 0;
+      }
     }
 
     .page-link {
-      display: block;
+      color: $blue-color;
       padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
+      margin: 0;
     }
   }
 }
-
-
 
 /**
  * Site footer
  */
 .site-footer {
   padding: $spacing-unit $spacing-unit * 2;
-  text-align:center;
+  text-align: center;
 }
 
 .footer-heading {
@@ -128,9 +123,8 @@
   @include relative-font-size(1.2);
   list-style: none;
   margin-left: 0;
-  display:flex;
-  justify-content:space-evenly;
-  
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .footer-col-wrapper {
@@ -148,29 +142,29 @@
 
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: calc(50% - (#{$spacing-unit} / 2));
   }
 
   .footer-col-3 {
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -178,11 +172,9 @@
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
-
-
 
 /**
  * Page content
@@ -218,8 +210,6 @@
   display: block;
   @include relative-font-size(1.5);
 }
-
-
 
 /**
  * Posts
@@ -267,10 +257,10 @@
 }
 
 .profile-picture {
-  width:50%;
-  padding-right:$spacing-unit;
+  width: 50%;
+  padding-right: $spacing-unit;
 }
 
 .about {
-  display:flex;
+  display: flex;
 }
