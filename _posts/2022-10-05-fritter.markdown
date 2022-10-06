@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Fritter"
+date:   2022-10-02 23:55:57 -0400
+categories: jekyll update
+img: koi-dark.JPG
+alt: "Jekyll update"
+---
+

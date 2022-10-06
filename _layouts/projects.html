@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="projects">
+    {%- if site.posts.size > 0 -%}
+    {%- assign ordered_posts = site.posts | sort: "order" -%}
+    <ul class="post-list">
+        {%- for post in ordered_posts -%}
+        <li>
+            <div class="project-item">
+                <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                <h1>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a>
+                </h1>
+                {%- if site.show_excerpts -%}
+                {{ post.excerpt }}
+                {%- endif -%}
+            </div>
+        </li>
+        {%- endfor -%}
+    </ul>
+    {%- endif -%}
+
+</div>

@@ -4,11 +4,7 @@
 
 @import "minima";
 
-h1 {
-    @include relative-font-size(2.5);
-    color: $blue-color;
-    font-weight: 800px;
-  }
+
 
 /* Project Grid */
 @media (min-width: 640px) {
@@ -69,5 +65,16 @@ h1 {
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     transition: all ease 1s;
+  }
+}
+
+.project-item {
+  display:flex;
+  align-items:center;
+  padding:$spacing-unit;
+  
+  .post-link {
+    @include relative-font-size(2.25);
+    margin: $spacing-unit;
   }
 }
