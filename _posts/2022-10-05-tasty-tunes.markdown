@@ -2,8 +2,14 @@
 layout: post
 title:  "Tasty Tunes"
 date:   2022-10-05
+categories: project
 img: tasty-tunes-logo-dark-bg.png
-order: 3
+alt: "Tasty Tunes Logo"
+order: 2
+header-color: "#052c38"
+id: tasty-tunes
 ---
 
-booooooooooo
+**Overview**
+
+* Friend recently reached out about designing a logo/post template for her new radio show

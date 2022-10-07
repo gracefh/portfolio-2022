@@ -2,8 +2,11 @@
 layout: post
 title:  "Fritter"
 date:   2022-10-02 23:55:57 -0400
-categories: jekyll update
-img: koi-dark.JPG
-alt: "Jekyll update"
+categories: project
+img: fritter.png
+alt: "Fritter"
+id: fritter
+header-color: "#9cc8ef"
 ---
 
+https://www.figma.com/file/oVSfpQCesAcDXHyO50KCKe/grace-huang-fritter-wireframes?node-id=0%3A1

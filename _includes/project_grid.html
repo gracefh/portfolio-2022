@@ -3,7 +3,7 @@
     <h1>Projects</h1>
     <div class="container portfolio-flex-grid">  
         <div class="portfolio-flex-row">
-            {% assign ordered_posts = site.posts | sort="order" %}
+            {% assign ordered_posts = site.posts | sort: "order" %}
             {% for post in ordered_posts %}
             <div class="portfolio-flex-item portfolio-item">
                 <a class="project-link" href="{{ post.url | relative_url }}">

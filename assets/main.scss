@@ -10,13 +10,13 @@
 @media (min-width: 640px) {
   .portfolio-flex-grid .portfolio-flex-row {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     align-items: stretch;
     justify-content: space-between;
   }
   .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-    flex: 1 0 49%;
-    max-width: 49%;
+    flex: 1 0 32%;
+    max-width: 32%;
   }
 }
 @media (min-width: 960px) {
@@ -46,7 +46,6 @@
 }
 
 .project-link {
-  background-color: $blue-color;
   &:hover {
     opacity: 0.5;
     -webkit-transition: all ease 1s;
@@ -78,3 +77,11 @@
     margin: $spacing-unit;
   }
 }
+
+
+/* ----- per-post colors! ----- */
+{% for node in site.posts %}
+  {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+  {% capture header_color %}{{ node.header-color }}{% endcapture %}
+  #{{id}} { background-color: {{ header_color }}; }
+{% endfor %}

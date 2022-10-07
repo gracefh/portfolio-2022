@@ -2,8 +2,12 @@
 layout: post
 title:  "Koi Cards"
 date:   2022-10-05
+categories: project
 img: koi-dark.JPG
-order: 2
+alt: "Koi Cards, dark version"
+header-color: "#9ad498"
+order: 3
+id: koi-cards
 ---
 
-booooooooooo
+I am placeholder text
