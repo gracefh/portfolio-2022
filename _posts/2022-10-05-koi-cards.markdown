@@ -11,3 +11,6 @@ id: koi-cards
 ---
 
 I am placeholder text
+
+<img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-both-backs.png" alt="Koi Cards, Both Backs" style="width:60%">
+<img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-aces.png" alt="Koi Cards, Aces" style="width:60%">

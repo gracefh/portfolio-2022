@@ -374,8 +374,68 @@ h2 {
 
 .tasty-tunes-img {
   width: 40%;
-  padding:$spacing-unit;
+  padding: $spacing-unit;
   margin: auto;
   border-radius: 0;
   display: block;
+}
+
+.koi-cards-img {
+  padding: $spacing-unit;
+  margin: auto;
+  border-radius: 0;
+  display: block;
+}
+
+.fritter-img {
+  padding: 0 $spacing-unit;
+  margin: auto;
+  border-radius: 0;
+  display: block;
+}
+
+.intro {
+  background-color: $blue-color;
+  height: 20em;
+
+  .intro-text {
+    @include relative-font-size(2);
+    color: $light-rose;
+    font-weight: 500;
+  }
+  .intro-scroll {
+    align-self: flex-end;
+  }
+
+  .fa-chevron-down {
+    color: $light-rose;
+
+    &:hover {
+      color: $darker-rose;
+      -webkit-transition: all ease 1s;
+      -moz-transition: all ease 1s;
+      transition: all ease 1s;
+    }
+  }
+}
+
+
+#intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: $spacing-unit;
+}
+
+.typewrite {
+  .wrap {
+    border-right: 0.1em solid $light-rose;
+  }
+
+  .toggle {
+    border: none;
+    -webkit-transition: all ease 5s;
+    -moz-transition: all ease 5s;
+    transition: all ease 5s;
+  }
 }

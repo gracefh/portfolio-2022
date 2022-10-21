@@ -1,0 +1,73 @@
+<script>
+    var TxtType = function (el, toRotate, period) {
+        this.lines = toRotate;
+        this.el = el;
+        this.current_child = this.el.children[0];
+        this.counter = 0
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function () {
+        if (this.counter == this.lines.length) {
+            return;
+        }
+
+        var fullTxt = this.lines[this.counter];
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+
+        this.current_child.innerHTML = this.txt;
+
+        var that = this;
+        var delta = 180 - Math.random() * 100;
+
+        if (this.txt === fullTxt) {
+            delta = this.period;
+
+            setTimeout('', 200);
+            this.current_child.classList.add("toggle");
+            this.counter += 1;
+            if (this.counter < this.lines.length) {
+                var node = document.createElement('span');
+                node.setAttribute('class', `wrap`);
+                node.setAttribute('id', `${this.counter}`)
+                this.el.appendChild(document.createElement('br'));
+                this.el.appendChild(node);
+                this.current_child = this.el.children[this.el.children.length - 1];
+                this.txt = ''
+            }
+
+        }
+
+        setTimeout(function () {
+            that.tick();
+        }, delta);
+
+
+    };
+
+    window.onload = function () {
+        setTimeout('', 5000);
+
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+                new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+    };
+</script>
+
+<div class="intro">
+    <div class="wrapper" id="intro-wrapper">
+        <div class="intro-text typewrite" data-period="500"
+            data-type='[ "Hi!", "I&#39;m Grace.", "Computer Science major at MIT.", "Aspiring UI/UX designer.", "Nice To Meet You!" ]'>
+            <span class="wrap" id="0"></span>
+        </div>
+        <!-- <a class="intro-scroll" href="#projects"><span></span><i class="fa fa-regular fa-chevron-down fa-2x"></i></a> -->
+    </div>
+</div>

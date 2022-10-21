@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Fritter"
-date:   2022-10-02 23:55:57 -0400
+title: "Fritter [WIP]"
+date: 2022-10-02 23:55:57 -0400
 categories: project
 img: fritter.png
 alt: "Fritter"
@@ -9,4 +9,26 @@ id: fritter
 header-color: "#9cc8ef"
 ---
 
-https://www.figma.com/file/oVSfpQCesAcDXHyO50KCKe/grace-huang-fritter-wireframes?node-id=0%3A1
+## Overview
+
+Our main software studio (MIT class 6.1040) project thus far has been to design and code Fritter, an alternative version of Twitter made using value-sensitive design principles.
+
+We started out the design-thinking process by conducting need-finding interviews and design analysis, which can be read [here](https://61040-fa22.github.io/portfolio-gracefh/2022/09/18/assignment-1.html).
+
+From there, we went through a process of idea generation, for which we produced basic sketches of possible concepts that would address issues surfaced from our interviews and analysis. The following images show two examples of sketches, and the complete set of sketches created can be read [here](https://61040-fa22.github.io/portfolio-gracefh/2022/09/25/assignment-2.html).
+
+<figure>
+<img class="fritter-img" src="/img/projects/fritter/fritter-activity-sketch.jpg" alt="Fritter Sketch, Activity Concept" style="width:40%">
+<figcaption style="text-align:center">A sketch of an Activity Monitor concept for Fritter</figcaption>
+</figure>
+
+<figure>
+<img class="fritter-img" src="/img/projects/fritter/fritter-groups-sketch.jpg" alt="Fritter Sketch, Groups Concept" style="width:60%;padding-bottom:0px">
+<figcaption style="text-align:center">A sketch of a Groups concept for Fritter</figcaption>
+</figure>
+
+We then narrowed down our concepts and created [wireframes](https://www.figma.com/file/oVSfpQCesAcDXHyO50KCKe/grace-huang-fritter-wireframes?node-id=0%3A1) for them using Figma, and more in-depth analysis can be found [here](https://61040-fa22.github.io/portfolio-gracefh/2022/10/07/assignment-3-revision.html).
+
+<div style="text-align:center"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoVSfpQCesAcDXHyO50KCKe%2Fgrace-huang-fritter-wireframes%3Fnode-id%3D0%253A1" allowfullscreen></iframe></div>
+
+We're currently in the process of coding up the backend of the site before moving onto frontend design. The finalized site will be added once this has been completed.
