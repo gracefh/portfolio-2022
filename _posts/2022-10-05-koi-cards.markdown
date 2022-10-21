@@ -3,9 +3,9 @@ layout: post
 title:  "Koi Cards"
 date:   2022-10-05
 categories: project
-img: koi-dark.JPG
-alt: "Koi Cards, dark version"
-header-color: "#9ad498"
+img: koi-cards-logo-blue.png
+alt: "Koi Cards, Logo"
+header-color: "#badbe0"
 order: 3
 id: koi-cards
 ---
