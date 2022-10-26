@@ -7,7 +7,7 @@
     {%- include header.html -%}
     {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
     <div class="post-banner" id="{{ id }}">
-      <img src="/img/projects/{{ page.img }}" class="post-img" alt="{{ page.alt }}">
+      <img src="{{ site.baseurl }}/img/projects/{{ page.img }}" class="post-img" alt="{{ page.alt }}">
     </div>
 
     <main class="page-content" aria-label="Content">

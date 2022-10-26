@@ -18,12 +18,12 @@ We started out the design-thinking process by conducting need-finding interviews
 From there, we went through a process of idea generation, for which we produced basic sketches of possible concepts that would address issues surfaced from our interviews and analysis. The following images show two examples of sketches, and the complete set of sketches created can be read [here](https://61040-fa22.github.io/portfolio-gracefh/2022/09/25/assignment-2.html).
 
 <figure>
-<img class="fritter-img" src="/img/projects/fritter/fritter-activity-sketch.jpg" alt="Fritter Sketch, Activity Concept" style="width:40%">
+<img class="fritter-img" src="{{ site.baseurl }}/img/projects/fritter/fritter-activity-sketch.jpg" alt="Fritter Sketch, Activity Concept" style="width:40%">
 <figcaption style="text-align:center">A sketch of an Activity Monitor concept for Fritter</figcaption>
 </figure>
 
 <figure>
-<img class="fritter-img" src="/img/projects/fritter/fritter-groups-sketch.jpg" alt="Fritter Sketch, Groups Concept" style="width:60%;padding-bottom:0px">
+<img class="fritter-img" src="{{ site.baseurl }}/img/projects/fritter/fritter-groups-sketch.jpg" alt="Fritter Sketch, Groups Concept" style="width:60%;padding-bottom:0px">
 <figcaption style="text-align:center">A sketch of a Groups concept for Fritter</figcaption>
 </figure>
 
