@@ -21,9 +21,9 @@ When I first started thinking about these cards, I wasn't exactly sure what them
 From there, I began sketching. The following images show various parts of the design.
 
 <div class="koi-sketches">
-    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-sketch-face-1.png" alt="Koi Cards Sketch, Face Card">
-    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-sketch-back-1.png" alt="Koi Cards Sketch, Card Back">
-    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-sketch-ace-spades.png" alt="Koi Cards Sketch, Ace Card">
+    <img class="koi-cards-img" src="img/projects/koi-cards/koi-cards-sketch-face-1.png" alt="Koi Cards Sketch, Face Card">
+    <img class="koi-cards-img" src="img/projects/koi-cards/koi-cards-sketch-back-1.png" alt="Koi Cards Sketch, Card Back">
+    <img class="koi-cards-img" src="img/projects/koi-cards/koi-cards-sketch-ace-spades.png" alt="Koi Cards Sketch, Ace Card">
 </div>
 
 ## Refining
@@ -34,16 +34,16 @@ Additionally, when researching, I found that the idea of Yin-Yang is sometimes s
 
 The following images show the two separate card backs, as well as the designs of all the aces and of the face cards for the heart suit. 
 
-<img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-both-backs.png" alt="Koi Cards, Both Backs" style="width:60%">
-<img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-aces.png" alt="Koi Cards, Aces" style="width:80%">
-<img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-face-hearts.png" alt="Koi Cards, Face Cards Heart Suit" style="width:80%">
+<img class="koi-cards-img" src="img/projects/koi-cards/koi-cards-both-backs.png" alt="Koi Cards, Both Backs" style="width:60%">
+<img class="koi-cards-img" src="img/projects/koi-cards/koi-cards-aces.png" alt="Koi Cards, Aces" style="width:80%">
+<img class="koi-cards-img" src="img/projects/koi-cards/koi-cards-face-hearts.png" alt="Koi Cards, Face Cards Heart Suit" style="width:80%">
 
 ## Final Cards
 
 After I finished creating all the designs on Illustrator, I got them printed through [MPC](https://www.makeplayingcards.com/). Below are some images of the printed cards.
 
 <div style="display:flex; flex-direction:row">
-    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-printed-all-boxes.jpeg" alt="Koi Cards, Printed, All Boxes">
-    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-printed-jokers-dark.jpeg" alt="Koi Cards, Printed, Dark Jokers">
-    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-printed-back-dark.jpeg" alt="Koi Cards, Printed, Dark Back">
+    <img class="koi-cards-img" src="img/projects/koi-cards/koi-cards-printed-all-boxes.jpeg" alt="Koi Cards, Printed, All Boxes">
+    <img class="koi-cards-img" src="img/projects/koi-cards/koi-cards-printed-jokers-dark.jpeg" alt="Koi Cards, Printed, Dark Jokers">
+    <img class="koi-cards-img" src="img/projects/koi-cards/koi-cards-printed-back-dark.jpeg" alt="Koi Cards, Printed, Dark Back">
 </div>
