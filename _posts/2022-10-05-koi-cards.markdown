@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Koi Cards"
-date:   2022-10-05
+title: "Koi Cards"
+date: 2022-10-05
 categories: project
 img: koi-cards-logo-blue.png
 alt: "Koi Cards, Logo"
@@ -10,7 +10,40 @@ order: 3
 id: koi-cards
 ---
 
-I am placeholder text
+## Overview
+
+This was a personal passion project, driven by my admiration for the artistry that goes into designing decks of cards. Having looked through many designs over the course of the past year, I realized that I wanted to create a fully customized card deck that is both aesthetically pleasing and have some amount of cultural depth. The bulk of the design process occurred over the past summer, and they were printed in August.
+
+## Ideation
+
+When I first started thinking about these cards, I wasn't exactly sure what theme I wanted to follow. After mulling over it for a while, I decided to focus on koi fish, not only because they are pretty, but also because they are significant in Asian culture.
+
+From there, I began sketching. The following images show various parts of the design.
+
+<div class="koi-sketches">
+    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-sketch-face-1.png" alt="Koi Cards Sketch, Face Card">
+    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-sketch-back-1.png" alt="Koi Cards Sketch, Card Back">
+    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-sketch-ace-spades.png" alt="Koi Cards Sketch, Ace Card">
+</div>
+
+## Refining
+
+After coming up with initial sketches on Procreate, I started using Illustrator to create vectorized designs for each card. During this process, I also realized I wanted to create a more minimal version of the cards, which we now call dark mode because of the generally darker color scheme. Through the process of creating each of the 55 cards for both decks that would end up being printed, I learned a great deal about Adobe Illustrator and also gained important design knowledge.
+
+Additionally, when researching, I found that the idea of Yin-Yang is sometimes said to be a representation of 2 koi fish circling around each other, symbolizing harmony and happiness. Given that most cards in a card deck are usually rotationally symmetric, the face cards of this deck all contain pairs of koi fish.
+
+The following images show the two separate card backs, as well as the designs of all the aces and of the face cards for the heart suit. 
 
 <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-both-backs.png" alt="Koi Cards, Both Backs" style="width:60%">
-<img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-aces.png" alt="Koi Cards, Aces" style="width:60%">
+<img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-aces.png" alt="Koi Cards, Aces" style="width:80%">
+<img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-face-hearts.png" alt="Koi Cards, Face Cards Heart Suit" style="width:80%">
+
+## Final Cards
+
+After I finished creating all the designs on Illustrator, I got them printed through [MPC](https://www.makeplayingcards.com/). Below are some images of the printed cards.
+
+<div style="display:flex; flex-direction:row">
+    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-printed-all-boxes.jpeg" alt="Koi Cards, Printed, All Boxes">
+    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-printed-jokers-dark.jpeg" alt="Koi Cards, Printed, Dark Jokers">
+    <img class="koi-cards-img" src="/img/projects/koi-cards/koi-cards-printed-back-dark.jpeg" alt="Koi Cards, Printed, Dark Back">
+</div>
