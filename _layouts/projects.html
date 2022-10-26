@@ -8,7 +8,7 @@ layout: default
         {%- for post in ordered_posts -%}
         <li>
             <div class="project-item">
-                <img src="/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                <img src="{{ site.baseurl }}/img/projects/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                 <h1>
                     <a class="post-link" href="{{ post.url | relative_url }}">
                         {{ post.title | escape }}
