@@ -32,11 +32,12 @@ After coming up with initial sketches on Procreate, I started using Illustrator 
 
 Additionally, when researching, I found that the idea of Yin-Yang is sometimes said to be a representation of 2 koi fish circling around each other, symbolizing harmony and happiness. Given that most cards in a card deck are usually rotationally symmetric, the face cards of this deck all contain pairs of koi fish.
 
+<!-- 
 The following images show the two separate card backs, as well as the designs of all the aces and of the face cards for the heart suit. 
 
 <img class="koi-cards-img" src="{{ site.baseurl }}/img/projects/koi-cards/koi-cards-both-backs.png" alt="Koi Cards, Both Backs" style="width:60%">
 <img class="koi-cards-img" src="{{ site.baseurl }}/img/projects/koi-cards/koi-cards-aces.png" alt="Koi Cards, Aces" style="width:80%">
-<img class="koi-cards-img" src="{{ site.baseurl }}/img/projects/koi-cards/koi-cards-face-hearts.png" alt="Koi Cards, Face Cards Heart Suit" style="width:80%">
+<img class="koi-cards-img" src="{{ site.baseurl }}/img/projects/koi-cards/koi-cards-face-hearts.png" alt="Koi Cards, Face Cards Heart Suit" style="width:80%"> -->
 
 ## Final Cards
 
@@ -47,3 +48,7 @@ After I finished creating all the designs on Illustrator, I got them printed thr
     <img class="koi-cards-img" src="{{ site.baseurl }}/img/projects/koi-cards/koi-cards-printed-jokers-dark.jpeg" alt="Koi Cards, Printed, Dark Jokers">
     <img class="koi-cards-img" src="{{ site.baseurl }}/img/projects/koi-cards/koi-cards-printed-back-dark.jpeg" alt="Koi Cards, Printed, Dark Back">
 </div>
+
+## Looking Ahead
+
+Looking ahead, I'm hoping to change some parts of the design and start a Kickstarter for these cards once I finish redesigning. I also hope to construct a website for these cards in the future as well to accompany the Kickstarter.

@@ -31,4 +31,10 @@ We then narrowed down our concepts and created [wireframes](https://www.figma.co
 
 <div style="text-align:center"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoVSfpQCesAcDXHyO50KCKe%2Fgrace-huang-fritter-wireframes%3Fnode-id%3D0%253A1" allowfullscreen></iframe></div>
 
-We're currently in the process of coding up the backend of the site before moving onto frontend design. The finalized site will be added once this has been completed.
+The final completely implemented app can be found [here](https://61040-fa22-fritter-frontend-7pvph2peh-gracefh.vercel.app/#/).
+
+## Reflection
+
+Overall, this project taught me a huge amount about the design thinking process, from initial need-finding interviews to constructing wireframes and implementing full websites. Having not had much experience with most of the tech stack used (Figma, Mongo, Vue, etc.) before taking the course, I think that I became a lot more comfortable with these tools through the duration of the class. 
+
+If I had more time to work on this though, I would've spent some more time really thinking about the wireframes and making sure that the overall feel of the app was cohesive.
