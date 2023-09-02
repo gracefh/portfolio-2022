@@ -2,19 +2,35 @@
  * Site header
  */
 .site-header {
-  min-height: $spacing-unit * 1.5;
+  min-height: $spacing-unit;
   padding-top: 30px;
   padding-bottom: 25px;
   background-color: $blue-color;
+  display:flex;
+  width:100%;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 
+#header-wrapper {
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction:row;
+  max-width:85vw;
+  width:85vw; // might have to change later
+  margin:0;
+  &::after {
+    content:none;
+  }
+}
 .site-nav {
-  @include relative-font-size(1.5);
-  font-weight: 600;
-  float: right;
+  @include relative-font-size(1.1);
+  font-weight: 500;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -95,6 +111,125 @@
   }
 }
 
+.non-home-header {
+  min-height: $spacing-unit;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  display:flex;
+  width:100%;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title-alt {
+  @include relative-font-size(2);
+  font-weight: 700;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  color: $blue-color;
+
+  &:visited {
+    color: $blue-color;
+  }
+
+  &:hover {
+    color: $darker-rose;
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    transition: all ease 1s;
+}
+}
+.site-nav-alt {
+  @include relative-font-size(1.1);
+  font-weight: 500;
+  float: right;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &:hover {
+      color: $darker-rose;
+      -webkit-transition: all ease 1s;
+      -moz-transition: all ease 1s;
+      transition: all ease 1s;
+    }
+
+  }
+
+  @include media-query($on-palm) {
+    margin-top: 10px;
+    right: $spacing-unit / 2;
+    background-color: $light-rose;
+    border-radius: 10px;
+
+    label[for="nav-trigger"] {
+      display: flex;
+      flex-direction: row;
+      float: right;
+      width: 40px;
+      height: 40px;
+      z-index: 2;
+      cursor: pointer;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .menu-icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      > .fa-bars {
+        color: $blue-color;
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding-bottom: 5px;
+
+      > .page-link {
+        margin-right: 0;
+      }
+    }
+
+    .page-link {
+      color: $blue-color;
+      padding: 5px 10px;
+      margin: 0;
+    }
+  }
+}
+
 h1 {
   @include relative-font-size(2.5);
   color: $blue-color;
@@ -111,6 +246,30 @@ h2 {
 .site-footer {
   padding: $spacing-unit $spacing-unit * 2;
   text-align: center;
+  background-color: $blue-color;
+  height:6em;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.footer {
+  a {
+    color: $light-rose;
+    line-height: $base-line-height;
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &:hover {
+      color: $darker-rose;
+      -webkit-transition: all ease 1s;
+      -moz-transition: all ease 1s;
+      transition: all ease 1s;
+    }
+  }
 }
 
 .footer-heading {
@@ -229,6 +388,18 @@ h2 {
   }
 }
 
+.about-title {
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  color:$text-color;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
+
 .post-content {
   margin-bottom: $spacing-unit;
 
@@ -286,7 +457,6 @@ h2 {
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
   color: $light-rose;
 
   &:visited {
@@ -308,15 +478,16 @@ h2 {
     flex-flow: row;
     align-items: stretch;
     justify-content: space-between;
+    gap:4em;
   }
   .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-    flex: 1 0 32%;
+    flex: 1 0;
     max-width: 32%;
   }
 }
 @media (min-width: 960px) {
   .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-    flex: 1 0 32%;
+    flex: 1 0;
     max-width: 32%;
   }
 }
@@ -324,7 +495,7 @@ h2 {
 .project-grid {
   display: block;
   text-align: center;
-  padding: $spacing-unit 0;
+  padding: 0 0 $spacing-unit 0;
 }
 
 .project-header {
@@ -336,8 +507,9 @@ h2 {
 
 .img-responsive {
   object-fit: cover;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  max-width:300px;
+  aspect-ratio: 1 / 1;
 }
 
 .project-link {
@@ -350,8 +522,8 @@ h2 {
 }
 
 .fa {
-  padding: 0 $spacing-unit;
-  color: $blue-color;
+  padding: 0 $spacing-unit/2;
+  color: $light-rose;
 
   &:hover {
     color: $darker-rose;
@@ -364,7 +536,7 @@ h2 {
 .project-item {
   display: flex;
   align-items: center;
-  padding: $spacing-unit;
+  padding: 0 $spacing-unit;
 
   .post-link {
     @include relative-font-size(2.25);
@@ -398,6 +570,7 @@ h2 {
 .intro {
   background-color: $blue-color;
   height: 18em;
+  padding: 2em;
 
   .intro-text {
     @include relative-font-size(2);

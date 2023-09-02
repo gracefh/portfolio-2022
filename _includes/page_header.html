@@ -1,11 +1,12 @@
-<header class="site-header" role="banner">
+<!-- Header for non-home pages -->
+<header class="non-home-header" role="banner">
 
   <div class="wrapper" id="header-wrapper">
     {%- assign default_paths = site.pages | sort: "order" | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title-alt" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
-    <nav class="site-nav">
+    <nav class="site-nav-alt">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
         <span class="menu-icon">
@@ -27,3 +28,4 @@
     </nav>
   </div>
 </header>
+<hr>

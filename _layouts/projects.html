@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<h1 class="about-title">{{ page.title | escape }}</h1>
 <div class="projects">
     {%- if site.posts.size > 0 -%}
     {%- assign ordered_posts = site.posts | sort: "order" -%}
